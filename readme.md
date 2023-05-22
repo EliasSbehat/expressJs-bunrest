@@ -1,3 +1,4 @@
+
 <p align="center">
   <a href="https://bun.sh"><img src="https://img.icons8.com/external-victoruler-flat-victoruler/344/external-baozi-chinese-new-year-victoruler-flat-victoruler.png" alt="Logo" height=200></a>
   <br />
@@ -6,12 +7,11 @@
 # 🧄 bunrest
 
 [![NPM Version][npm-version-image]][npm-url]
-[![CodeFactor](https://www.codefactor.io/repository/github/lau1944/bunrest/badge/main)](https://www.codefactor.io/repository/github/lau1944/bunrest/overview/main)
 ![NPM Downloads][npm-downloads-image]
 
 ## What is bunrest  👀
 
-### bunrest is an ExpressJs-like API for [bun](https://github.com/oven-sh/bun) http server.
+### bunrest is an ExpressJs
 
 ## Features
 
@@ -48,7 +48,6 @@ bun init
 
 This will create a blank bun project
 
-see reference [here](https://github.com/oven-sh/bun#bun-create)
 
 ### Server set up
 
@@ -57,7 +56,6 @@ Download the package
 ```shell
 bun install bunrest
 ```
-
 
 ```js
 import server from "bunrest";
@@ -158,7 +156,7 @@ app.get('/', (req, res) => {
 ```
 
 It will call the `error handler callback function` and return a `response`. 
-But if we have not specified a `response` to return, a `error page` will be displayed on the browser on debug mode, check more on [bun error handling](https://github.com/oven-sh/bun#error-handling)
+But if we have not specified a `response` to return, a `error page` will be displayed on the browser on debug mode
 
 
 ### Start the server, listen to port
